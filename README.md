@@ -2,9 +2,9 @@
 
 =========
 
-![alt tag](https://git-scm.com/images/logos/2color-lightbg@2x.png)
+![alt tag](http://i.imgur.com/q9Saz4s.jpg)
 
-## Iniciando um novo repositório na linha de comando
+## Iniciando um novo repositório, criando e commitando o README 
 
 ```html
 echo "# git-dicas" >> README.md
@@ -18,8 +18,9 @@ git push -u origin master
 ## Importando um repositório já criado
 
 ```html
-git remote add origin https://github.com/thiagocanudo/git-dicas.git
-git push -u origin master
+git init
+git remote add origin https://github.com/$USER/$REPOSITORIO.git
+git pull -u origin master
 ```
 
 ## Ignorando o .DS_Store do Mac definitivamente
