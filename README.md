@@ -4,7 +4,7 @@
 
 ![alt tag](http://i.imgur.com/q9Saz4s.jpg)
 
-# Criando um README iniciando o repositório e fazendo um commit 
+## Criando um README iniciando o repositório e fazendo um commit 
 
 ```html
 echo "# git-dicas" >> README.md
@@ -15,7 +15,7 @@ git remote add origin https://github.com/$USER/$REPOSITORIO.git
 git push -u origin master
 ```
 
-# Importando um repositório já criado
+## Importando um repositório já criado
 
 ```html
 git init
@@ -23,7 +23,7 @@ git remote add origin https://github.com/$USER/$REPOSITORIO.git
 git pull -u origin master
 ```
 
-# Ignorando o .DS_Store do Mac definitivamente
+## Ignorando o .DS_Store do Mac definitivamente
 
 ```html
 $ git config --global core.excludesfile ~/.gitignore
