@@ -4,7 +4,7 @@
 
 ![alt tag](http://i.imgur.com/q9Saz4s.jpg)
 
-## Criando um README iniciando o repositório e fazendo um commit 
+## Criando um README iniciando o repositório e fazendo um Commit 
 
 ```html
 echo "# git-dicas" >> README.md
