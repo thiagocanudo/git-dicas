@@ -28,10 +28,7 @@ $ git config --global core.excludesfile ~/.gitignore $ echo .DS_Store >>
 
 ## Autenticação por Token
 
-```html
-[Autenticação Git por
-token](https://www.alura.com.br/artigos/nova-exigencia-do-git-de-autenticacao-por-token-o-que-e-o-que-devo-fazer)
-```
+[Autenticação Git por token](https://www.alura.com.br/artigos/nova-exigencia-do-git-de-autenticacao-por-token-o-que-e-o-que-devo-fazer)
 
 ## Github Markdown Syntax
 
