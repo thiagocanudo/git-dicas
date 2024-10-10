@@ -2,22 +2,24 @@
 
 ![alt tag](http://i.imgur.com/q9Saz4s.jpg)
 
-## Criando um README iniciando o repositório e fazendo um Commit
+## Criando um repositório por linha de comando e fazendo um commit
 
 ```html
-echo "# git-dicas" >> README.md
-git init git add README.md
-git commit -m "first commit" 
+echo "# $REPOSITORIO" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
 git remote add origin https://github.com/$USER/$REPOSITORIO.git
 git push -u origin master
 ```
 
-## Importando um repositório já criado
+## Importando um repositório já criado por linha de comando
 
 ```html
-git init
 git remote add origin https://github.com/$USER/$REPOSITORIO.git
-git pull -u origin master
+git branch -M master
+git push -u origin master
 ```
 
 ## Ignorando o .DS_Store do Mac definitivamente
